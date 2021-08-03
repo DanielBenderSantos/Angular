@@ -11,9 +11,19 @@
       "Price": 500.89
     },
     {
-      "name": "teste",
-      "price": "123",
+      "name": "Prod tete",
+      "price": 123.98,
       "id": 3
+    },
+    {
+      "name": "teste form",
+      "price": "9.99",
+      "id": 4
+    },
+    {
+      "name": "t2",
+      "price": "01",
+      "id": 5
     }
   ]
 }
