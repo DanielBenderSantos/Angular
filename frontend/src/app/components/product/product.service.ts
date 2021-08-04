@@ -27,7 +27,12 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl)
   }
 
-  readById(id: string):Observable<Product>{
+  // o que ele ta recebendo aqui tem que ser string ( porem o que ele ta recebendo não e string e number ou qualquer outra coisa menos string)
+  // readById(id: string):Observable<Product>{
+
+  // troquei o tipo do parametro que ele ta recebendo por ANY  OU SEJA QUALQUER COISA
+  readById(id: any):Observable<Product>{
+
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url)
   }
