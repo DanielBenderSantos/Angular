@@ -3,16 +3,17 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "Price": 5.89
+      "price": "5.89"
+      
     },
     {
       "id": 2,
-      "name": "Note book",
-      "Price": 500.89
+      "name": "Notebook",
+      "price": "500.89"
     },
     {
       "name": "Prod tete",
-      "price": 123.98,
+      "price": "123.98",
       "id": 3
     },
     {
@@ -24,6 +25,16 @@
       "name": "t2",
       "price": "01",
       "id": 5
+    },
+    {
+      "name": "ratp",
+      "price": "012333.7",
+      "id": 6
+    },
+    {
+      "name": "w",
+      "price": "02",
+      "id": 7
     }
   ]
 }
